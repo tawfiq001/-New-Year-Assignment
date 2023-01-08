@@ -65,3 +65,37 @@ body{
     margin-left: 110px;
     margin-top: 80px;
 }
+.Main_plan_list{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+}
+.Main_plan_list ul {
+    text-align: center;
+    list-style: none;
+    justify-content: space-between;
+}
+.Main_plan_Title{
+    margin-top: 130PX;
+    font-size: 46px;
+    font-weight: 800px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.Title_of_img{
+    margin-top: 15px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.Des_of_img{
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: lighter;
+}
+.Main_hand_img{
+    display: block;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
