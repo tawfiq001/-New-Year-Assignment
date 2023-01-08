@@ -8,7 +8,7 @@
     position: relative;
     left: 850px;
 }
-.Header_Des, .Failure_List, .Failure_Des, .Reason_Des, .Reason_List, .Footer_Future_Title{
+.Header_Des, .Failure_List, .Failure_Des, .Reason_Des, .Reason_List{
     margin-top: 20px;
     font-size: 18px;
 }
@@ -119,6 +119,20 @@ body{
 .Mindset_Title{
     padding-top: 75px;
 }
-.Footer{
+.Footor{
     display: flex;
+    margin-top: 200px;
+    width: 1600px;
+    height: 600px;
+}
+.Footer_Future_Title{
+    font-size: 46px;
+    font-weight: bold;
+}
+.Footer_Future_All{
+    width: 600px;
+    height: 500px;
+}
+.Footer_Future_Email, .Footer_Future_Des, .Footer_Future_Phone{
+    margin-top: 20px;
 }
