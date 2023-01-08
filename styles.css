@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+}
+.Header_Width{
+    width: 350px;
+    height: 600px;
+    text-align: right;
+    position: relative;
+    left: 850px;
+}
+.Header_Des, .Failure_List, .Failure_Des{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.Btn_White{
+    margin-top: 20px;
+    padding: 15px 22px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: white;
+    color: blue;
+    font-size: 23px;
+    font-weight: 600px;
+}
+.Header_Title, .Failure_Title{
+    margin-top: 260PX;
+    font-size: 46px;
+    font-weight: 800px;
+}
+body{
+    background-image: url("images/banner/banner3.png");
+    background-repeat: no-repeat;
+}
+.Section_Width{
+    width: 350px;
+    height: 600px;
+}
+.Failure_List{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    list-style-type: none;
+}
+.Failure_List li:before{
+    content:'✓';
+}
+.Section_Style{
+    display: flex;
+}
