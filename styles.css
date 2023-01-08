@@ -8,7 +8,7 @@
     position: relative;
     left: 850px;
 }
-.Header_Des, .Failure_List, .Failure_Des, .Reason_Des, .Reason_List{
+.Header_Des, .Failure_List, .Failure_Des, .Reason_Des, .Reason_List, .Footer_Future_Title{
     margin-top: 20px;
     font-size: 18px;
 }
@@ -118,4 +118,7 @@ body{
 }
 .Mindset_Title{
     padding-top: 75px;
+}
+.Footer{
+    display: flex;
 }
